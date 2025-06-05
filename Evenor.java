@@ -1,10 +1,7 @@
-package adf;
+package jdbca;
 import java.util.*;
 
-import com.sun.tools.javac.parser.Scanner;
-
-public class Evenor { 
-
+public class Evenor {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
        
@@ -17,4 +14,5 @@ public class Evenor {
         	System.out.println("odd");
         }
 
-	}}
+
+}}

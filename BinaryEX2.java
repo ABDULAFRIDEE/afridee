@@ -9,13 +9,16 @@ public class BinaryEX2 {
 		System.out.println("enter a name:");
 		String input=sc.nextLine();
 		sc.close();
-		int index = Arrays.binarySearch(names, input);
-		 if (index >= 0) {
-	            System.out.println("Name Exists.");
-	        } else {
-	            System.out.println("Name doesn't Exists.");
-
+		String s=A
+		
+		if(input==s){
+			System.out.println("exsits");
+			
+		}
+		else {
+			System.out.println("not exsits");
+		}
 		
 	}
 
-}}
+}
