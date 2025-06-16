@@ -9,7 +9,7 @@ public class Treesetex2 {
 		t.add(5005);
 		t.add(5006);
 		System.out.println(t);
-		t.higher(3
+	
 		System.out.println(t.higher(2));	
 		t.lower(5006);
 		System.out.println(t);	
