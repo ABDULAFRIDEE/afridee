@@ -9,15 +9,15 @@ public class JDBCTest {
 
 	public static void main(String[] args) {
 		try {
-		// 1. Load the JDBC driver
+		
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		// 2. Connect to the database
+		
 		
 		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testtb","root","0000");
-		//3. Insert multiple students		
+		
 		String insertSQL = "REPLACE INTO STUDENT VALUES (?, ?)";
 		PreparedStatement pstmt =con.prepareStatement(insertSQL);
-		// Inserting 6 students(1 existing + 5 new)
+		
 		Object[][] students = {
 				{1, "Alice"},
 				{2, "Bob"},
